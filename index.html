@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar de idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+      </style>
+
+</head>
+<body>
+
+    <section id="container">
+
+        <section id="metade-esquerda">
+            <div>
+                <h1 id="resposta"></h1>
+            </div>
+            <img id="img" src="assets/image-removebg-preview (1).png" alt="Homem curioso">
+            
+        </section>
+
+        <section id="metade-direita">
+
+            <div id="intro">
+                <h1>Olá :)</h1>
+                <p>Por favor, informe seus dados</p>
+            </div>
+
+            <div id="forms">
+                <p>Nome <br>
+                    <input type="text" name="Nome" id="Nome">
+                </p>
+                <p>Ano de nascimento <br>
+                    <input type="number" name="ano" id="ano" min="0" max="120">
+                </p>
+                <p> Sexo <br>
+                    <input type="radio" name="sexo" id="mas">
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="sexo" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+            </div>
+
+            <div id="send">
+                <input type="button" value="Enviar" onclick="verificar()">
+            </div>
+            
+        </section>
+
+    </section>
+ 
+    <script src="main.js"></script>
+     
+</body>
+</html>
