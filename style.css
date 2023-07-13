@@ -70,7 +70,8 @@
     width: 376px;
     height: 52px;
     padding-top: 40px;
-
+    font-size: 24px;
+    padding: 14px 0;
   }
 
   #forms .radio{
@@ -126,13 +127,30 @@
 
   #metade-esquerda {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
   }
   
   #metade-esquerda img {
     max-width: 100%;
     height: auto;
+    align-self: flex-end;
+    margin-bottom: 0;
+  }
+
+  #resposta{
+    color: black;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 510;
+    line-height: normal;
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 50px;
+    text-align: center;
   }
 
 
